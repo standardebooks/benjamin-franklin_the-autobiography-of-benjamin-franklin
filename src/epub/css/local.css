@@ -9,6 +9,17 @@
 	font-size: 1.1em;
 }
 
+
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+	margin: 3em;
+	margin-top: 0;
+	text-align: left;
+	text-indent: 0;
+	display: inline-block;
+}
+
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: left;
@@ -46,6 +57,81 @@ footer{
 	margin-top: 1em;
 }
 
-.signature{
+.advertisement-header,
+.inscription{
+	text-align: center;
+}
+
+b{
+	font-weight: normal;
+}
+
+b,
+.signature,
+.virtue{
 	font-variant: small-caps;
+}
+
+.dateline,
+h2 + p[epub|type~="se:letter.dateline"]{
+	text-align: right;
+	font-style: italic;
+}
+
+h2 + p[epub|type~="se:letter.dateline"] b{
+	font-style: normal;
+}
+
+h2 + p[epub|type~="se:letter.dateline"] + p{
+	text-indent: 0;
+	margin-top: 1em;
+}
+
+table{
+	margin: 1em auto;
+}
+
+table td{
+	padding: .5em;
+}
+
+abbr.era{
+	font-variant: all-small-caps;
+}
+
+.temperance-form{
+	border-width: 1px;
+	border-style: solid;
+	border-collapse: collapse;
+}
+
+.temperance-form thead td{
+	text-align: center;
+	font-variant: small-caps;
+}
+
+.temperance-form thead td,
+.temperance-form tbody td{
+	border-width: 1px;
+	border-style: solid;
+}
+
+.temperance-form td{
+	text-align: center;
+	vertical-align: center;
+}
+
+.note{
+	margin: 1em;
+	text-align: center;
+	text-indent: 0;
+}
+
+.note + p{
+	text-indent: 0;
+}
+
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
 }
