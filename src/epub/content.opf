@@ -31,7 +31,8 @@
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>LANG</dc:language>
-		<dc:source>LINK</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/20203</dc:source>
+		<dc:source>https://books.google.com/books?id=rT93AAAAMAAJ</dc:source>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">WIKILINK</meta>
