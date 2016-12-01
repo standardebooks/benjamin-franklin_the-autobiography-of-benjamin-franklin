@@ -1,6 +1,10 @@
 @charset "UTF-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+abbr.name{
+	white-space: nowrap;
+}
+
 .pica{
 	font-size: 1.3em;
 }
@@ -8,7 +12,6 @@
 .long-primer{
 	font-size: 1.1em;
 }
-
 
 [epub|type~="epigraph"]{
 	font-style: italic;
