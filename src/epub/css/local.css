@@ -5,6 +5,10 @@ abbr.name{
 	white-space: nowrap;
 }
 
+i i{
+	font-style: normal;
+}
+
 .pica{
 	font-size: 1.3em;
 }
