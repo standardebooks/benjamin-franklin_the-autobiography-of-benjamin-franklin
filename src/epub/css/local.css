@@ -142,3 +142,30 @@ span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
 }
+
+.scheme-of-employment{
+	width: 75%;
+}
+
+.scheme-of-employment td{
+	vertical-align: middle;
+}
+
+.scheme-of-employment td:only-child,
+.scheme-of-employment td[rowspan] + td{
+	text-align: center;
+}
+
+.scheme-of-employment td p{
+	height: 100%;
+	overflow: auto;
+	text-indent: 0;
+}
+
+.scheme-of-employment .header{
+	text-align: center;
+}
+
+.scheme-of-employment .section td{
+	border-top: 1px solid black;
+}
