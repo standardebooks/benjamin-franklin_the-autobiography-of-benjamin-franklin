@@ -48,6 +48,11 @@
 		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/nr00009693</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">aui</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
+		<dc:contributor id="editor-2">John Bigelow</dc:contributor>
+		<meta property="file-as" refines="#editor-2">Bigelow, John</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-2">https://en.wikipedia.org/wiki/John_Bigelow</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50011221</meta>
+		<meta property="role" refines="#editor-2" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">David Martin</dc:contributor>
 		<meta property="file-as" refines="#artist">Martin, David</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/David_Martin_(artist)</meta>
