@@ -147,7 +147,9 @@ span[epub|type~="subtitle"]{
 }
 
 .scheme-of-employment{
-	width: 75%;
+	width: 100%;
+	max-width: 50em;
+	margin: .5em auto; /* plus .5em from cell padding = 1em */
 }
 
 .scheme-of-employment td{
@@ -171,4 +173,10 @@ span[epub|type~="subtitle"]{
 
 .scheme-of-employment .section td{
 	border-top: 1px solid black;
+}
+
+blockquote header{
+	text-align: center;
+	margin: 1em;
+	font-style: italic;
 }
