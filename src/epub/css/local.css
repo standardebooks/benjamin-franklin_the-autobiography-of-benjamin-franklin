@@ -136,6 +136,7 @@ abbr.era{
 
 table + p,
 ol + p,
+.virtues p,
 .note + p{
 	text-indent: 0;
 }
