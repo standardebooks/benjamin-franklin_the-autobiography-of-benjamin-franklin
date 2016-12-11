@@ -132,6 +132,7 @@ abbr.era{
 	margin: 1em;
 	text-align: center;
 	text-indent: 0;
+	font-style: italic;
 }
 
 table + p,
@@ -177,6 +178,6 @@ span[epub|type~="subtitle"]{
 
 blockquote header{
 	text-align: center;
-	margin: 1em;
+	margin: 1em auto;
 	font-style: italic;
 }

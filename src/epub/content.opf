@@ -2,9 +2,9 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="cc: http://creativecommons.org/ns, se: http://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/benjamin-franklin/the-autobiography-of-benjamin-franklin</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<meta property="se:revision-number">0</meta>
+		<dc:date>2016-12-11T23:08:06Z</dc:date>
+		<meta property="dcterms:modified">2016-12-11T23:08:06Z</meta>
+		<meta property="se:revision-number">1</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -25,16 +25,19 @@
 		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/20203</meta>
 		<meta property="se:subject">Autobiography</meta>
 		<meta property="se:subject">Nonfiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Benjamin Franklin writes about his youth, adventures, and achievements.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONGDESCRIPTION
+			&lt;p&gt;Benjamin Franklin is a man who needs little introduction.  He wore many hats over the course of his fascinating life, from that of a printer, to an inventor, to a scientist, to a politician, a founding father and statesman, and even a postmaster-general.  He was famous for all of these things in his day, but he was also famed for his keen insight into people and human nature, and his sparkling talent as a conversationalist.&lt;/p&gt;
+			&lt;p&gt;Despite his accomplishments, Franklin seemed to keep a down-to-earth demeanor, favoring home-spun sayings and simple, direct, honest prose—the kind of prose that shines in this autobiography.&lt;/p&gt;
+			&lt;p&gt;The autobiography itself has a long and complex publication history.  Franklin composed it in fits and spurts between 1771 and 1790, and never had a chance to complete it, let alone publish it, in his lifetime.  It was first published as a poor French translation of an unrevised edition of the manuscript, and then as a heavily-editorialized and inaccurate English edition by Franklin’s son, William Temple Franklin.  In 1868 John Bigelow purchased the original copy of the autobiography and published the first accurate edition, which is what subsequent publications, including this one, are based on.&lt;/p&gt;
+			&lt;p&gt;Though incomplete, this autobiography is a highly readable and fascinating insight into the legendary life of the man some people call the “First American.”&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/20203</dc:source>
 		<dc:source>https://books.google.com/books?id=rT93AAAAMAAJ</dc:source>
-		<meta property="se:word-count">64758</meta>
+		<meta property="se:word-count">64687</meta>
 		<meta property="se:reading-ease.flesch">49.79</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Autobiography_of_Benjamin_Franklin</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/benjamin-franklin_the-autobiography-of-benjamin-franklin</meta>
