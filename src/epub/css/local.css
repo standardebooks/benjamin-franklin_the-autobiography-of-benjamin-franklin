@@ -169,7 +169,8 @@ span[epub|type~="subtitle"]{
 }
 
 .scheme-of-employment .section td{
-	border-top: 1px solid black;
+	border-top-width: 1px;
+	border-top-style: solid;
 }
 
 blockquote header{
