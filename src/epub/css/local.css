@@ -131,8 +131,6 @@ abbr.era{
 	font-style: italic;
 }
 
-table + p,
-ol + p,
 .virtues p,
 .note + p{
 	text-indent: 0;
