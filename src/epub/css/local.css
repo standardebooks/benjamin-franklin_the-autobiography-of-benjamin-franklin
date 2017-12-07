@@ -76,16 +76,16 @@ b,
 }
 
 .dateline,
-h2 + p[epub|type~="se:letter.dateline"]{
+p[epub|type~="se:letter.dateline"]{
 	text-align: right;
 	font-style: italic;
 }
 
-h2 + p[epub|type~="se:letter.dateline"] b{
+p[epub|type~="se:letter.dateline"] b{
 	font-style: normal;
 }
 
-h2 + p[epub|type~="se:letter.dateline"] + p{
+p[epub|type~="se:letter.dateline"] + p{
 	text-indent: 0;
 	margin-top: 1em;
 }
