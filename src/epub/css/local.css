@@ -142,6 +142,10 @@ abbr.era{
 	vertical-align: center;
 }
 
+.temperance-form p{
+	text-indent: 0;
+}
+
 .note{
 	margin: 1em;
 	text-align: center;
