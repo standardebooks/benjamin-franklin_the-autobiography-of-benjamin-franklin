@@ -5,11 +5,13 @@ i i{
 	font-style: normal;
 }
 
-.pica{
+/* pica */
+#note-55 span:first-of-type{
 	font-size: 1.3em;
 }
 
-.long-primer{
+/* long primer */
+#note-55 span:last-of-type{
 	font-size: 1.1em;
 }
 
@@ -84,7 +86,7 @@ footer{
 }
 
 .advertisement-header,
-.inscription{
+#chapter-1 blockquote:last-of-type{
 	text-align: center;
 }
 
@@ -93,7 +95,7 @@ footer{
 	font-variant: small-caps;
 }
 
-.dateline,
+header p.advertisement-header + p,
 p[epub|type~="se:letter.dateline"]{
 	text-align: right;
 	font-style: italic;
@@ -120,29 +122,29 @@ abbr.era{
 	font-variant: all-small-caps;
 }
 
-.temperance-form{
+#chapter-9 table:first-of-type{
 	border-width: 1px;
 	border-style: solid;
 	border-collapse: collapse;
 }
 
-.temperance-form thead td{
+#chapter-9 table:first-of-type thead td{
 	text-align: center;
 	font-variant: small-caps;
 }
 
-.temperance-form thead td,
-.temperance-form tbody td{
+#chapter-9 table:first-of-type thead td,
+#chapter-9 table:first-of-type tbody td{
 	border-width: 1px;
 	border-style: solid;
 }
 
-.temperance-form td{
+#chapter-9 table:first-of-type td{
 	text-align: center;
 	vertical-align: center;
 }
 
-.temperance-form p{
+#chapter-9 table:first-of-type p{
 	text-indent: 0;
 }
 
@@ -163,32 +165,32 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-.scheme-of-employment{
+#chapter-9 table:last-of-type{
 	width: 100%;
 	max-width: 50em;
 	margin: .5em auto; /* plus .5em from cell padding = 1em */
 }
 
-.scheme-of-employment td{
+#chapter-9 table:last-of-type td{
 	vertical-align: middle;
 }
 
-.scheme-of-employment td:only-child,
-.scheme-of-employment td[rowspan] + td{
+#chapter-9 table:last-of-type td:only-child,
+#chapter-9 table:last-of-type td[rowspan] + td{
 	text-align: center;
 }
 
-.scheme-of-employment td p{
+#chapter-9 table:last-of-type td p{
 	height: 100%;
 	overflow: auto;
 	text-indent: 0;
 }
 
-.scheme-of-employment .header{
+#chapter-9 table:last-of-type .header{
 	text-align: center;
 }
 
-.scheme-of-employment .section td{
+#chapter-9 table:last-of-type .section td{
 	border-top-width: 1px;
 	border-top-style: solid;
 }
