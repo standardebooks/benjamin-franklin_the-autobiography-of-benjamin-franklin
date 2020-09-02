@@ -161,11 +161,6 @@ abbr.era{
 	text-indent: 0;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 #chapter-9 table:last-of-type{
 	width: 100%;
 	max-width: 50em;
