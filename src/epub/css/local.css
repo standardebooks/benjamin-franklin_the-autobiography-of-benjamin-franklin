@@ -91,7 +91,7 @@ footer{
 	text-align: center;
 }
 
-[epub:type~="z3998:signature"],
+[epub|type~="z3998:signature"],
 #chapter-9 ol li p:first-child{
 	font-variant: small-caps;
 }
