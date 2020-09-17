@@ -1,10 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-i i{
-	font-style: normal;
-}
-
 /* pica */
 #note-55 span:first-of-type{
 	font-size: 1.3em;
