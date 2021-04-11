@@ -168,8 +168,6 @@ abbr.era{
 }
 
 #chapter-9 table:last-of-type td p{
-	height: 100%;
-	overflow: auto;
 	text-indent: 0;
 }
 
