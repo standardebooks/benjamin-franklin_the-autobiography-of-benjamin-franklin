@@ -110,7 +110,7 @@ table td{
 	padding: .5em;
 }
 
-abbr.era{
+[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
 
