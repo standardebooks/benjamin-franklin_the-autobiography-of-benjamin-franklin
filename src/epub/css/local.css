@@ -73,8 +73,8 @@ p span.i1{
 }
 
 footer{
-	text-align: right;
 	margin-top: 1em;
+	text-align: right;
 }
 
 .advertisement-header,
@@ -89,8 +89,8 @@ footer{
 
 header p.advertisement-header + p,
 p[epub|type~="se:letter.dateline"]{
-	text-align: right;
 	font-style: italic;
+	text-align: right;
 }
 
 p[epub|type~="se:letter.dateline"] b{
@@ -98,8 +98,8 @@ p[epub|type~="se:letter.dateline"] b{
 }
 
 p[epub|type~="se:letter.dateline"] + p{
-	text-indent: 0;
 	margin-top: 1em;
+	text-indent: 0;
 }
 
 table{
@@ -115,20 +115,20 @@ table td{
 }
 
 #chapter-9 table:first-of-type{
-	border-width: 1px;
-	border-style: solid;
 	border-collapse: collapse;
+	border-style: solid;
+	border-width: 1px;
 }
 
 #chapter-9 table:first-of-type thead td{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 }
 
 #chapter-9 table:first-of-type thead td,
 #chapter-9 table:first-of-type tbody td{
-	border-width: 1px;
 	border-style: solid;
+	border-width: 1px;
 }
 
 #chapter-9 table:first-of-type td{
@@ -141,10 +141,10 @@ table td{
 }
 
 .note{
+	font-style: italic;
 	margin: 1em;
 	text-align: center;
 	text-indent: 0;
-	font-style: italic;
 }
 
 #chapter-9 ol p,
@@ -153,9 +153,9 @@ table td{
 }
 
 #chapter-9 table:last-of-type{
-	width: 100%;
-	max-width: 50em;
 	margin: .5em auto; /* plus .5em from cell padding = 1em */
+	max-width: 50em;
+	width: 100%;
 }
 
 #chapter-9 table:last-of-type td{
@@ -176,11 +176,11 @@ table td{
 }
 
 #chapter-9 table:last-of-type .section td{
-	border-top-width: 1px;
 	border-top-style: solid;
+	border-top-width: 1px;
 }
 
 blockquote header{
-	margin: 1em auto;
 	font-style: italic;
+	margin: 1em auto;
 }
