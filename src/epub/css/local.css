@@ -164,7 +164,8 @@ table td{
 
 #chapter-9 table:last-of-type td:only-child,
 #chapter-9 table:last-of-type td[rowspan] + td{
-	text-align: center;
+	font-variant-numeric: tabular-nums;
+	text-align: right;
 }
 
 #chapter-9 table:last-of-type td p{
