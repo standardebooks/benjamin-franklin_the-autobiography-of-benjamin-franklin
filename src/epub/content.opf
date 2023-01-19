@@ -31,7 +31,7 @@
 		<dc:subject id="subject-1">Franklin, Benjamin, 1706-1790</dc:subject>
 		<dc:subject id="subject-2">Statesmen -- United States -- Biography</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">Unknown</meta>
+		<meta property="term" refines="#subject-1">n79043402</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008111368</meta>
 		<meta property="se:subject">Autobiography</meta>
