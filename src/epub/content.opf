@@ -59,8 +59,8 @@
 		<dc:contributor id="editor">Frank Woodworth Pine</dc:contributor>
 		<meta property="file-as" refines="#editor">Pine, Frank Woodworth</meta>
 		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/nr00009693</meta>
-		<meta property="role" refines="#editor" scheme="marc:relators">win</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">win</meta>
 		<dc:contributor id="editor-2">John Bigelow</dc:contributor>
 		<meta property="file-as" refines="#editor-2">Bigelow, John</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-2">https://en.wikipedia.org/wiki/John_Bigelow</meta>
