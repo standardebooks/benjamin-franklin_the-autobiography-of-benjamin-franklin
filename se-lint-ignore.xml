@@ -2,6 +2,7 @@
 <se-lint-ignore>
 	<file path="endnotes.xhtml">
 		<ignore code="t-031">
+			<line>185</line>
 			<reason>A B C D E is not used in the sense of "the A.B.C.s" but rather as a typesetting example.</reason>
 		</ignore>
 	</file>
