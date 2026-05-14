@@ -106,7 +106,8 @@ table{
 	margin: 1em auto;
 }
 
-table td{
+table td,
+table th{
 	padding: .5em;
 }
 
@@ -120,12 +121,13 @@ table td{
 	border-width: 1px;
 }
 
-#chapter-9 table:first-of-type thead td{
+#chapter-9 table:first-of-type thead th{
 	font-variant: small-caps;
 	text-align: center;
+	font-weight: normal;
 }
 
-#chapter-9 table:first-of-type thead td,
+#chapter-9 table:first-of-type thead th,
 #chapter-9 table:first-of-type tbody td{
 	border-style: solid;
 	border-width: 1px;
