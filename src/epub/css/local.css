@@ -123,8 +123,8 @@ table th{
 
 #chapter-9 table:first-of-type thead th{
 	font-variant: small-caps;
-	text-align: center;
 	font-weight: normal;
+	text-align: center;
 }
 
 #chapter-9 table:first-of-type thead th,
