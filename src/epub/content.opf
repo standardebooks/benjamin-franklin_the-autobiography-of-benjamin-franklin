@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/benjamin-franklin/the-autobiography-of-benjamin-franklin</dc:identifier>
 		<dc:date>2016-12-11T23:08:06Z</dc:date>
 		<meta property="dcterms:modified">2016-12-11T23:08:06Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -35,8 +36,8 @@
 		<meta property="term" refines="#subject-1">n79043402</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008111368</meta>
-		<meta property="se:subject">Autobiography</meta>
-		<meta property="se:subject">Nonfiction</meta>
+		<meta property="schema:genre">Autobiography</meta>
+		<meta property="schema:genre">Nonfiction</meta>
 		<dc:description id="description">Benjamin Franklin writes about his youth, adventures, and achievements.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/benjamin-franklin"&gt;Benjamin Franklin&lt;/a&gt; is a man who needs little introduction. He wore many hats over the course of his fascinating life, from that of a printer, to an inventor, to a scientist, to a politician, a founding father and statesman, and even a postmaster-general. He was famous for all of these things in his day, but he was also famed for his keen insight into people and human nature, and his sparkling talent as a conversationalist.&lt;/p&gt;
@@ -47,29 +48,31 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/20203</dc:source>
 		<dc:source>https://books.google.com/books?id=rT93AAAAMAAJ</dc:source>
-		<meta property="se:word-count">64545</meta>
-		<meta property="se:reading-ease.flesch">49.99</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Autobiography_of_Benjamin_Franklin</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/benjamin-franklin_the-autobiography-of-benjamin-franklin</meta>
+		<meta property="schema:wordCount">64545</meta>
+		<meta property="schema:educationalLevel">49.99</meta>
+		<link href="https://en.wikipedia.org/wiki/Autobiography_of_Benjamin_Franklin" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/benjamin-franklin_the-autobiography-of-benjamin-franklin" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Benjamin Franklin</dc:creator>
 		<meta property="file-as" refines="#author">Franklin, Benjamin</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Benjamin_Franklin</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79043402</meta>
+		<link href="https://en.wikipedia.org/wiki/Benjamin_Franklin" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79043402.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="editor">Frank Woodworth Pine</dc:contributor>
 		<meta property="file-as" refines="#editor">Pine, Frank Woodworth</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/nr00009693</meta>
+		<link href="https://id.loc.gov/authorities/names/nr00009693.html" refines="#editor" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">win</meta>
 		<dc:contributor id="editor-2">John Bigelow</dc:contributor>
 		<meta property="file-as" refines="#editor-2">Bigelow, John</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-2">https://en.wikipedia.org/wiki/John_Bigelow</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor-2">http://id.loc.gov/authorities/names/n50011221</meta>
+		<link href="https://en.wikipedia.org/wiki/John_Bigelow" refines="#editor-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50011221.html" refines="#editor-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor-2" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">David Martin</dc:contributor>
 		<meta property="file-as" refines="#artist">Martin, David</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/David_Martin_(artist)</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr90005694</meta>
+		<link href="https://en.wikipedia.org/wiki/David_Martin_(artist)" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr90005694.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Turgut Dincer</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Dincer, Turgut</meta>
@@ -79,11 +82,11 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
