@@ -31,7 +31,7 @@
 		<dc:title id="title">The Autobiography of Benjamin Franklin</dc:title>
 		<meta property="file-as" refines="#title">Autobiography of Benjamin Franklin, The</meta>
 		<dc:subject id="subject-1">Franklin, Benjamin, 1706-1790</dc:subject>
-		<dc:subject id="subject-2">Statesmen -- United States -- Biography</dc:subject>
+		<dc:subject id="subject-2">Statesmen--United States--Biography</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">n79043402</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
